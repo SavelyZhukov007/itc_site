@@ -1088,6 +1088,7 @@ img {
 }
 
 @media (hover: hover) and (pointer: fine) {
+
   body.custom-cursor-enabled,
   body.custom-cursor-enabled button,
   body.custom-cursor-enabled a,
@@ -1100,40 +1101,48 @@ img {
 }
 
 @keyframes logoFloat {
+
   0%,
   100% {
     transform: translateY(0px) rotate(0deg);
   }
+
   50% {
     transform: translateY(-6px) rotate(1.5deg);
   }
 }
 
 @keyframes ambientOrb {
+
   0%,
   100% {
     transform: translate3d(0, 0, 0) scale(1);
   }
+
   50% {
     transform: translate3d(18px, -16px, 0) scale(1.08);
   }
 }
 
 @keyframes visualDrift {
+
   0%,
   100% {
     transform: scale(1.03) translate3d(0, 0, 0);
   }
+
   50% {
     transform: scale(1.08) translate3d(-10px, 6px, 0);
   }
 }
 
 @keyframes stepFloat {
+
   0%,
   100% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(-8px);
   }
@@ -1143,6 +1152,7 @@ img {
   0% {
     transform: translateX(-130%);
   }
+
   100% {
     transform: translateX(130%);
   }
@@ -1152,6 +1162,7 @@ img {
   0% {
     transform: translateX(-150%);
   }
+
   100% {
     transform: translateX(150%);
   }
@@ -1223,6 +1234,7 @@ img {
 }
 
 @media (max-width: 760px) {
+
   .header-inner,
   .site-footer__inner {
     display: flex;
